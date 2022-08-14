@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_crna/comstants.dart' show kPrimaryColor, kTextColor;
 import 'package:flutter_crna/screens/home/home_screen.dart';
+import 'package:flutter_crna/screens/welcome/welcome_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,10 +18,11 @@ class MyApp extends StatelessWidget {
       title: 'Flutter title',
       theme: ThemeData(
         primaryColor: kPrimaryColor,
+        scaffoldBackgroundColor: Colors.white,
         textTheme: Theme.of(context).textTheme.apply(bodyColor: kTextColor),
         //primarySwatch: Colors.blue,
       ),
-      home: const HomeScreen(title: 'Flutter'),
+      home: const WelcomeScreen(),
     );
   }
 }
