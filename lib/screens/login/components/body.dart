@@ -23,8 +23,13 @@ class Body extends StatelessWidget {
           children: const <Widget>[
             Text(
               "เข้าสู่ระบบ",
-              style: TextStyle(fontWeight: FontWeight.bold),
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 25,
+                color: kPrimaryColor,
+              ),
             ),
+            Text("  "),
             TextFileldContianer(
               child: TextField(
                 // controller: _ctrlUsername,
@@ -38,6 +43,7 @@ class Body extends StatelessWidget {
                 ),
               ),
             ),
+            Text("  "),
             TextFileldContianer(
               child: TextField(
                 // controller: _ctrlPassword,
