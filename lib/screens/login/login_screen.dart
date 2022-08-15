@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_crna/screens/login/components/body.dart';
+
 class LoginScreen extends StatelessWidget {
   const LoginScreen({Key? key}) : super(key: key);
 
@@ -10,4 +11,3 @@ class LoginScreen extends StatelessWidget {
     );
   }
 }
-

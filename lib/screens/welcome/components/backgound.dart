@@ -24,6 +24,7 @@ class Backgound extends StatelessWidget {
               width: size.width * 190,
             ),
           ),
+
           // Positioned(
           //   // top: 0,
           //   // left: 0,
